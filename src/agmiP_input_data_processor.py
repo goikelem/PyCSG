@@ -45,11 +45,11 @@ import pandas as pd
 # ============================================================
 
 INPUT_DIR = (
-    "/home/goitomk/AI/cloud/PyCSG/output"
+    "~/PyCSG/output"
 )
 
 OUTPUT_DIR = (
-    "/home/goitomk/AI/cloud/PyCSG/agreegate/AgMIP_Processed"
+    "~/PyCSG/agreegate/AgMIP_Processed"
 )
 
 # Search recursively for AgMIP files.
