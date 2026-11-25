@@ -20,10 +20,10 @@ import numpy as np
 # ============================================================
 
 INPUT_FILE = (
-    r"/home/goitomk/AI/cloud/PyCSG/output/ETAD_ssp126_access-cm2_end_mandv.AgMIP"
+    r"~/PyCSG/output/ETAD_ssp126_access-cm2_end_mandv.AgMIP"
 )
 
-OUTPUT_DIR = r"/home/goitomk/AI/cloud/PyCSG/agreegate/AgMIP_Processed"
+OUTPUT_DIR = r"~/PyCSG/agreegate/AgMIP_Processed"
 
 # If the source contains one extra initial year, remove it.
 # For the uploaded file, this removes 1980 and retains 1981-2010.
