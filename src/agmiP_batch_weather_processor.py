@@ -34,11 +34,11 @@ import numpy as np
 # ============================================================
 
 INPUT_DIR = (
-    "/home/goitomk/AI/cloud/PyCSG/output"
+    "~/PyCSG/output"
 )
 
 OUTPUT_DIR = (
-    "/home/goitomk/AI/cloud/PyCSG/agreegate/AgMIP_Processed"
+    "~/PyCSG/agreegate/AgMIP_Processed"
 )
 
 # Process only these file extensions.
