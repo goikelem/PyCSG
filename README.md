@@ -22,7 +22,7 @@
 
 ## ✨ What is PyCSG?
 
-**PyCSG** takes your **station weather files** (AgMIP format) and combines them with **CMIP6 climate model output** to produce **future climate scenarios** for the time slices you choose: near, mid and end of century.
+**PyCSG** takes your **station weather files** (AgMIP format) and combines them with **CMIP6 climate model output** to produce **future climate scenarios** bias-corrected for the time slices you choose: near, mid and end of century.
 
 | 🎯 You pick | 🧩 PyCSG handles |
 |---|---|
