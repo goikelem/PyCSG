@@ -1,0 +1,9 @@
+short_region: FS
+header: Farm-site baseline climate series
+variables:
+  tmean: tmean
+  precip: prec
+  elevation: elevation
+temperature_scale: 1.0
+precipitation_scale: 1.0
+sites: []  # Add entries: {name: Farm 1, lat: 13.5, lon: 39.5}

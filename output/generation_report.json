@@ -1,0 +1,74 @@
+[
+  {
+    "station": "ETAD",
+    "model": "access_cm2",
+    "scenario": "ssp126",
+    "period": "near",
+    "resolution": "daily",
+    "method": "delta",
+    "status": "success",
+    "output": "ETAD_ssp126_access-cm2_near_delta.AgMIP",
+    "grid_lat": 13.125,
+    "grid_lon": 40.3125
+  },
+  {
+    "station": "ETAD",
+    "model": "access_cm2",
+    "scenario": "ssp126",
+    "period": "near",
+    "resolution": "daily",
+    "method": "mandv",
+    "status": "success",
+    "output": "ETAD_ssp126_access-cm2_near_mandv.AgMIP",
+    "grid_lat": 13.125,
+    "grid_lon": 40.3125
+  },
+  {
+    "station": "ETAD",
+    "model": "access_cm2",
+    "scenario": "ssp126",
+    "period": "mid",
+    "resolution": "daily",
+    "method": "delta",
+    "status": "success",
+    "output": "ETAD_ssp126_access-cm2_mid_delta.AgMIP",
+    "grid_lat": 13.125,
+    "grid_lon": 40.3125
+  },
+  {
+    "station": "ETAD",
+    "model": "access_cm2",
+    "scenario": "ssp126",
+    "period": "mid",
+    "resolution": "daily",
+    "method": "mandv",
+    "status": "success",
+    "output": "ETAD_ssp126_access-cm2_mid_mandv.AgMIP",
+    "grid_lat": 13.125,
+    "grid_lon": 40.3125
+  },
+  {
+    "station": "ETAD",
+    "model": "access_cm2",
+    "scenario": "ssp126",
+    "period": "end",
+    "resolution": "daily",
+    "method": "delta",
+    "status": "success",
+    "output": "ETAD_ssp126_access-cm2_end_delta.AgMIP",
+    "grid_lat": 13.125,
+    "grid_lon": 40.3125
+  },
+  {
+    "station": "ETAD",
+    "model": "access_cm2",
+    "scenario": "ssp126",
+    "period": "end",
+    "resolution": "daily",
+    "method": "mandv",
+    "status": "success",
+    "output": "ETAD_ssp126_access-cm2_end_mandv.AgMIP",
+    "grid_lat": 13.125,
+    "grid_lon": 40.3125
+  }
+]

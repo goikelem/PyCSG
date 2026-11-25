@@ -1,0 +1,339 @@
+paths:
+  input_dir: input
+  model_dir: data/models
+  output_dir: output
+baseline:
+  file: USAM0XXX.AgMIP
+  period:
+    start: '1980-01-01'
+    end: '2009-12-31'
+future_periods:
+  near:
+    start: '2021-01-01'
+    end: '2050-12-31'
+  mid:
+    start: '2041-01-01'
+    end: '2070-12-31'
+  end:
+    start: '2071-01-01'
+    end: '2100-12-31'
+scenarios:
+  ssp126: SSP1-2.6
+  ssp245: SSP2-4.5
+  ssp370: SSP3-7.0
+  ssp460: SSP4-6.0
+  ssp585: SSP5-8.5
+# Where the model data come from.
+#   cmip6  -> discover every file under cmip6.root (layout: <root>/<daily|monthly>/<experiment>/<model>_<var>_lat..._lon..._<start>_<end>.nc)
+#   config -> use the hand-written `models:` section below (legacy)
+data_source: cmip6
+cmip6:
+  root: ~/DATA/cmip6/data      # override with --cmip6-root or $PYCSG_CMIP6_ROOT
+  resolution: auto             # daily | monthly | auto (daily, falling back to monthly)
+  required_variables: [tasmax, tasmin, pr]
+  # default_scenarios: [ssp245, ssp585]   # optional; default is every scenario found on disk
+variables:
+  tasmax: tasmax
+  tasmin: tasmin
+  pr: pr
+member: null
+wet_day_threshold_mm: 1.0
+gamma_factor: 1.0
+method: both
+models:
+  CCCma - CanESM6-0-MR:
+    file: CCCma - CanESM6-0-MR.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  CCCma - CanESM5-1:
+    file: CCCma - CanESM5-1.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  UKNCSP - UKESM1.3:
+    file: UKNCSP - UKESM1.3.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  UKNCSP - UKCM2-LL:
+    file: UKNCSP - UKCM2-LL.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  UKNCSP - UKCM2a-HH:
+    file: UKNCSP - UKCM2a-HH.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  EC-Earth-Consortium - EC-Earth3-ESM:
+    file: EC-Earth-Consortium - EC-Earth3-ESM.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  IPSL - IPSL-CM7:
+    file: IPSL - IPSL-CM7.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  CAS - CAS-ESM2-1:
+    file: CAS - CAS-ESM2-1.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  MRI:
+    file: MRI.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  NIMS-KMA:
+    file: NIMS-KMA.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  CNRM-CERFACS:
+    file: CNRM-CERFACS.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  UA:
+    file: UA.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  NOAA-GFDL:
+    file: NOAA-GFDL.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  DWD:
+    file: DWD.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  IPSL - IPSLCM6-ESMCO2:
+    file: IPSL - IPSLCM6-ESMCO2.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  AWI:
+    file: AWI.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  KIOST:
+    file: KIOST.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  NCC - NorESM3-LM:
+    file: NCC - NorESM3-LM.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  CCCR-IITM:
+    file: CCCR-IITM.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  NASA-GISS:
+    file: NASA-GISS.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  SNU:
+    file: SNU.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  INM:
+    file: INM.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  University of Bristol:
+    file: University of Bristol.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  CMCC:
+    file: CMCC.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  FIO:
+    file: FIO.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  MIROC - MIROC7:
+    file: MIROC - MIROC7.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  MIROC - MIROC-ES3:
+    file: MIROC - MIROC-ES3.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  CAS - CAS-ESM3-0:
+    file: CAS - CAS-ESM3-0.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  NCC - NorESM3-MM:
+    file: NCC - NorESM3-MM.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  INPE:
+    file: INPE.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  AS-RCEC:
+    file: AS-RCEC.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  EC-Earth-Consortium - EC-Earth4:
+    file: EC-Earth-Consortium - EC-Earth4.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  NUIST:
+    file: NUIST.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  NCAR:
+    file: NCAR.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  HKUST:
+    file: HKUST.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  BCC:
+    file: BCC.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585
+  CSIRO/ACCESS-NRI:
+    file: CSIRO/ACCESS-NRI.nc
+    historical_experiment: historical
+    scenario_experiments:
+      ssp126: ssp126
+      ssp245: ssp245
+      ssp370: ssp370
+      ssp585: ssp585

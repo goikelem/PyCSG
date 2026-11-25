@@ -1,0 +1,1 @@
+Place the station-specific daily .AgMIP baseline here.

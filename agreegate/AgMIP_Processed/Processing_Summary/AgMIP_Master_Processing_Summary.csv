@@ -1,0 +1,9 @@
+Filename,GCM,Scenario,Start,End,Daily_records,Monthly_records,Annual_records,Status,Error
+ETAD0QXX.AgMIP,,,,,0,0,0,FAILED,Simulation date range not found in metadata.
+ETAD_ssp126_access-cm2_end_delta.AgMIP,access_cm2,ssp126,2071-01-01,2100-12-31,10957,360,30,SUCCESS,
+ETAD_ssp126_access-cm2_end_mandv.AgMIP,access_cm2,ssp126,2071-01-01,2100-12-31,10957,360,30,SUCCESS,
+ETAD_ssp126_access-cm2_mid_delta.AgMIP,access_cm2,ssp126,2041-01-01,2070-12-31,10957,360,30,SUCCESS,
+ETAD_ssp126_access-cm2_mid_mandv.AgMIP,access_cm2,ssp126,2041-01-01,2070-12-31,10957,360,30,SUCCESS,
+ETAD_ssp126_access-cm2_near_delta.AgMIP,access_cm2,ssp126,2021-01-01,2050-12-31,10957,360,30,SUCCESS,
+ETAD_ssp126_access-cm2_near_mandv.AgMIP,access_cm2,ssp126,2021-01-01,2050-12-31,10957,360,30,SUCCESS,
+README.txt,,,,,0,0,0,FAILED,Simulation date range not found in metadata.

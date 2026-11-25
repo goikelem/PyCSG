@@ -1,0 +1,7 @@
+station,model,scenario,period,resolution,method,status,output,grid_lat,grid_lon
+ETAD,access_cm2,ssp126,near,daily,delta,success,ETAD_ssp126_access-cm2_near_delta.AgMIP,13.125,40.3125
+ETAD,access_cm2,ssp126,near,daily,mandv,success,ETAD_ssp126_access-cm2_near_mandv.AgMIP,13.125,40.3125
+ETAD,access_cm2,ssp126,mid,daily,delta,success,ETAD_ssp126_access-cm2_mid_delta.AgMIP,13.125,40.3125
+ETAD,access_cm2,ssp126,mid,daily,mandv,success,ETAD_ssp126_access-cm2_mid_mandv.AgMIP,13.125,40.3125
+ETAD,access_cm2,ssp126,end,daily,delta,success,ETAD_ssp126_access-cm2_end_delta.AgMIP,13.125,40.3125
+ETAD,access_cm2,ssp126,end,daily,mandv,success,ETAD_ssp126_access-cm2_end_mandv.AgMIP,13.125,40.3125

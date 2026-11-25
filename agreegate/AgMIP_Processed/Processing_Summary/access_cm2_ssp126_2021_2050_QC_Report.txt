@@ -1,0 +1,33 @@
+AgMIP DSSAT WEATHER PROCESSING REPORT
+==================================================
+
+Input file: ETAD_ssp126_access-cm2_near_mandv.AgMIP
+GCM: access_cm2
+Scenario: ssp126
+Metadata: *WEATHER DATA : access_cm2 | ssp126 | 2021-01-01 to 2050-12-31 | AgMIP mandv method | grid 13.1250, 40.3125
+Simulation period: 2021-01-01 00:00:00 to 2050-12-31 00:00:00
+
+QUALITY CONTROL
+==================================================
+Daily records: 10957
+Start date: 2021-01-01 00:00:00
+End date: 2050-12-31 00:00:00
+Duplicate dates: 0
+Missing dates: 0
+
+Missing values:
+SRAD: 0
+TMAX: 0
+TMIN: 0
+RAIN: 0
+WIND: 0
+DEWP: 0
+VPRS: 0
+RHUM: 0
+Negative rainfall records: 0
+TMIN greater than TMAX: 0
+
+OUTPUT FILES
+/home/goitomk/AI/cloud/PyCSG/agreegate/AgMIP_Processed/Daily/access_cm2_ssp126_2021_2050_Daily.csv
+/home/goitomk/AI/cloud/PyCSG/agreegate/AgMIP_Processed/Monthly/access_cm2_ssp126_2021_2050_Monthly.csv
+/home/goitomk/AI/cloud/PyCSG/agreegate/AgMIP_Processed/Annual/access_cm2_ssp126_2021_2050_Annual.csv

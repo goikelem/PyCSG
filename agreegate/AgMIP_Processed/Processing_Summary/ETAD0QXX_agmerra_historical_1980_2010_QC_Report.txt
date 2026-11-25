@@ -1,0 +1,53 @@
+AGMIP DSSAT WEATHER PROCESSING REPORT
+=================================================================
+
+Input file: ETAD0QXX.AgMIP
+Metadata: *WEATHER DATA : Adigudom, Ethiopia from AgMERRA output
+Dataset source/GCM: agmerra
+Scenario: historical
+Simulation start: 1980-01-01
+Simulation end: 2010-12-31
+
+DAILY WEATHER DATA QUALITY CONTROL
+=======================================================
+Daily records: 11323
+Start date: 1980-01-01
+End date: 2010-12-31
+Duplicate dates: 0
+Missing calendar dates: 0
+
+MISSING WEATHER VALUES
+-------------------------------------------------------
+SRAD: 0
+TMAX: 0
+TMIN: 0
+RAIN: 0
+WIND: 0
+DEWP: 0
+VPRS: 0
+RHUM: 0
+
+WEATHER DATA CHECKS
+-------------------------------------------------------
+Negative rainfall records: 0
+Negative solar radiation records: 0
+Negative wind speed records: 0
+TMIN greater than TMAX: 0
+
+WEATHER VARIABLE STATISTICS
+-------------------------------------------------------
+            SRAD       TMAX       TMIN       RAIN       WIND       DEWP       VPRS       RHUM
+count  11323.000  11323.000  11323.000  11323.000  11323.000  11323.000  11323.000  11323.000
+mean      21.771     27.077     13.811      1.624      2.432      8.159     11.479     32.178
+std        2.975      2.588      2.202      6.460      0.740      5.287      3.799     12.852
+min        5.400     16.600      5.600      0.000      0.200    -17.100      1.600      5.000
+25%       20.100     25.400     12.200      0.000      1.900      4.900      8.700     23.000
+50%       21.900     26.900     14.000      0.000      2.400      8.900     11.400     31.000
+75%       23.700     28.800     15.500      0.000      3.000     12.000     14.100     40.000
+max       29.900     36.400     20.300    124.600      4.800     20.500     24.400     75.000
+
+OUTPUT FILES
+=================================================================
+Daily: /home/goitomk/AI/cloud/PyCSG/agreegate/AgMIP_Processed/Daily/ETAD0QXX_agmerra_historical_1980_2010_Daily.csv
+Monthly: /home/goitomk/AI/cloud/PyCSG/agreegate/AgMIP_Processed/Monthly/ETAD0QXX_agmerra_historical_1980_2010_Monthly.csv
+Annual: /home/goitomk/AI/cloud/PyCSG/agreegate/AgMIP_Processed/Annual/ETAD0QXX_agmerra_historical_1980_2010_Annual.csv

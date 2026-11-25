@@ -1,0 +1,38 @@
+model_key,netcdf_file,historical_experiment,ssp126_experiment,ssp245_experiment,ssp370_experiment,ssp585_experiment
+CCCma - CanESM6-0-MR,CCCma - CanESM6-0-MR.nc,historical,ssp126,ssp245,ssp370,ssp585
+CCCma - CanESM5-1,CCCma - CanESM5-1.nc,historical,ssp126,ssp245,ssp370,ssp585
+UKNCSP - UKESM1.3,UKNCSP - UKESM1.3.nc,historical,ssp126,ssp245,ssp370,ssp585
+UKNCSP - UKCM2-LL,UKNCSP - UKCM2-LL.nc,historical,ssp126,ssp245,ssp370,ssp585
+UKNCSP - UKCM2a-HH,UKNCSP - UKCM2a-HH.nc,historical,ssp126,ssp245,ssp370,ssp585
+EC-Earth-Consortium - EC-Earth3-ESM,EC-Earth-Consortium - EC-Earth3-ESM.nc,historical,ssp126,ssp245,ssp370,ssp585
+IPSL - IPSL-CM7,IPSL - IPSL-CM7.nc,historical,ssp126,ssp245,ssp370,ssp585
+CAS - CAS-ESM2-1,CAS - CAS-ESM2-1.nc,historical,ssp126,ssp245,ssp370,ssp585
+MRI,MRI.nc,historical,ssp126,ssp245,ssp370,ssp585
+NIMS-KMA,NIMS-KMA.nc,historical,ssp126,ssp245,ssp370,ssp585
+CNRM-CERFACS,CNRM-CERFACS.nc,historical,ssp126,ssp245,ssp370,ssp585
+UA,UA.nc,historical,ssp126,ssp245,ssp370,ssp585
+NOAA-GFDL,NOAA-GFDL.nc,historical,ssp126,ssp245,ssp370,ssp585
+DWD,DWD.nc,historical,ssp126,ssp245,ssp370,ssp585
+IPSL - IPSLCM6-ESMCO2,IPSL - IPSLCM6-ESMCO2.nc,historical,ssp126,ssp245,ssp370,ssp585
+AWI,AWI.nc,historical,ssp126,ssp245,ssp370,ssp585
+KIOST,KIOST.nc,historical,ssp126,ssp245,ssp370,ssp585
+NCC - NorESM3-LM,NCC - NorESM3-LM.nc,historical,ssp126,ssp245,ssp370,ssp585
+CCCR-IITM,CCCR-IITM.nc,historical,ssp126,ssp245,ssp370,ssp585
+NASA-GISS,NASA-GISS.nc,historical,ssp126,ssp245,ssp370,ssp585
+SNU,SNU.nc,historical,ssp126,ssp245,ssp370,ssp585
+INM,INM.nc,historical,ssp126,ssp245,ssp370,ssp585
+University of Bristol,University of Bristol.nc,historical,ssp126,ssp245,ssp370,ssp585
+CMCC,CMCC.nc,historical,ssp126,ssp245,ssp370,ssp585
+FIO,FIO.nc,historical,ssp126,ssp245,ssp370,ssp585
+MIROC - MIROC7,MIROC - MIROC7.nc,historical,ssp126,ssp245,ssp370,ssp585
+MIROC - MIROC-ES3,MIROC - MIROC-ES3.nc,historical,ssp126,ssp245,ssp370,ssp585
+CAS - CAS-ESM3-0,CAS - CAS-ESM3-0.nc,historical,ssp126,ssp245,ssp370,ssp585
+NCC - NorESM3-MM,NCC - NorESM3-MM.nc,historical,ssp126,ssp245,ssp370,ssp585
+INPE,INPE.nc,historical,ssp126,ssp245,ssp370,ssp585
+AS-RCEC,AS-RCEC.nc,historical,ssp126,ssp245,ssp370,ssp585
+EC-Earth-Consortium - EC-Earth4,EC-Earth-Consortium - EC-Earth4.nc,historical,ssp126,ssp245,ssp370,ssp585
+NUIST,NUIST.nc,historical,ssp126,ssp245,ssp370,ssp585
+NCAR,NCAR.nc,historical,ssp126,ssp245,ssp370,ssp585
+HKUST,HKUST.nc,historical,ssp126,ssp245,ssp370,ssp585
+BCC,BCC.nc,historical,ssp126,ssp245,ssp370,ssp585
+CSIRO/ACCESS-NRI,CSIRO/ACCESS-NRI.nc,historical,ssp126,ssp245,ssp370,ssp585
